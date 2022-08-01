@@ -10,3 +10,7 @@ Esse comando é importante para fazer o download das dependências locais, apena
 ### Instalar dependências
 
 ```python3 -m pip install -r requirements.txt```
+
+### Para rodar o projeto, use:
+
+```flask run```
