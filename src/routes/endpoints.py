@@ -1,2 +1,3 @@
 class Endpoints:
-    authentication = '/authentication'
+    login = '/authentication/login'
+    signup = '/authentication/signup'

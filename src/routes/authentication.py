@@ -3,7 +3,7 @@ from flask_restplus import Resource
 from src.routes import authentication_api as api
 from src.routes.endpoints import Endpoints
 
-@api.route(Endpoints.authentication)
+@api.route(Endpoints.login)
 class Login(Resource):
     @api.doc('Rota de login')
     def post(self):
